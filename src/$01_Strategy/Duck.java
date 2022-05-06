@@ -5,19 +5,14 @@ import $01_Strategy.behaviors.QuackBehavior;
 
 /**
  * @author g84196891
+ *
+ * 环境类 Context
  */
 public class Duck
 {
     private String name;
     private FlyBehavior mFlyBehavior;
     private QuackBehavior mQuackBehavior;
-
-    public Duck(String name, FlyBehavior flyBehavior, QuackBehavior quackBehavior)
-    {
-        this.name = name;
-        mFlyBehavior = flyBehavior;
-        mQuackBehavior = quackBehavior;
-    }
 
     public Duck(String name)
     {

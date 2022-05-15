@@ -1,6 +1,6 @@
-package $06_Factory;
+package $07_Factory.calculation;
 
-abstract class Calculator
+public abstract class Calculation
 {
     private double numberA;
     private double numberB;
@@ -15,10 +15,15 @@ abstract class Calculator
         return numberB;
     }
 
-    public Calculator(double numberA, double numberB)
+    public void setNumberA(double numberA)
     {
         this.numberA = numberA;
+    }
+
+    public void setNumberB(double numberB)
+    {
         this.numberB = numberB;
     }
-    public abstract double calculate();
+
+    public abstract double doCalculation();
 }

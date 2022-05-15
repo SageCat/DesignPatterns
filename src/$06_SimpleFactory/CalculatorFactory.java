@@ -1,4 +1,9 @@
-package $06_Factory;
+package $06_SimpleFactory;
+
+import $06_SimpleFactory.concrete_product.AddCalculator;
+import $06_SimpleFactory.concrete_product.DivideCalculator;
+import $06_SimpleFactory.concrete_product.TimesCalculator;
+import $06_SimpleFactory.product.Calculator;
 
 /**
  * @author g84196891

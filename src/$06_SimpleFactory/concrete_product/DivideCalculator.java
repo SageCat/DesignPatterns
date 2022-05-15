@@ -1,4 +1,6 @@
-package $06_Factory;
+package $06_SimpleFactory.concrete_product;
+
+import $06_SimpleFactory.product.Calculator;
 
 public class DivideCalculator extends Calculator
 {

@@ -1,7 +1,12 @@
-package $06_Factory;
+package $06_SimpleFactory;
+
+import $06_SimpleFactory.product.Calculator;
 
 import java.util.Scanner;
 
+/**
+ * @author g84196891
+ */
 public class CalculatorTest
 {
     public static void main(String[] args)
